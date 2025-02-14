@@ -3,12 +3,52 @@ a {
   text-decoration: none;
 }
 
-.top {
-  display: flex;
-  justify-content: flex-end;
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
 }
 
-.title {
+header {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+header .top {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 15px 0;
+}
+
+header .top img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+header .title {
   font-size: 30px;
   margin-right: auto;
+}
+
+header ul {
+  display: flex;
+}
+
+header ul li {
+  padding: 0 30px;
+}
+
+header ul a {
+  padding: 20px 0;
+  color: #666;
+  border-bottom: 5px solid transparent;
+  transition: all 0.3s;
+}
+
+header ul a:hover {
+  color: black;
+  border-color: black;
 }
