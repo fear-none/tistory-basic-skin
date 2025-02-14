@@ -32,6 +32,7 @@
         <aside>
           <s_sidebar>
             <s_sidebar_element>
+              <!-- 방문자 수 -->
               <div class="counter">
                 <div class="total">
                   <div>전체 방문자</div>
@@ -43,6 +44,15 @@
                 <div class="yesterday">
                   Yesterday : [##_count_yesterday_##]
                 </div>
+              </div>
+            </s_sidebar_element>
+            <s_sidebar_element>
+              <!-- 태그 클라우드 -->
+              <div class="tagbox">
+                <h3>태그</h3>
+                <s_random_tags>
+                  <a href="[##_tag_link_##]" class="[##_tag_class_##]">[##_tag_name_##]</a>,
+                </s_random_tags>
               </div>
             </s_sidebar_element>
           </s_sidebar>
