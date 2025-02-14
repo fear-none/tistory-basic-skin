@@ -135,3 +135,15 @@ aside {
   font-size: 14px;
   margin-bottom: 5px;
 }
+
+.recent-reply {
+  margin-bottom: 30px;
+  font-size: 14px;
+  color: gray;
+  line-height: 1.6;
+}
+
+.recent-reply h3 {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
