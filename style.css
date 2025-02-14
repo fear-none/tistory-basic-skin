@@ -89,3 +89,37 @@ header ul a:hover {
   height: 100%;
   opacity: 0.5;
 }
+
+.wrapper {
+  display: flex;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+main {
+  flex: 1;
+  padding-top: 60px;
+  padding-right: 40px;
+}
+
+aside {
+  width: 230px;
+  padding: 60px 40px;
+  border-left: 1px solid #eee;
+}
+
+.counter .total div:nth-child(1) {
+  font-size: 16px;
+}
+
+.counter .total div:nth-child(2) {
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 2px;
+}
+
+.counter .today,
+.counter .yesterday {
+  color: gray;
+}
