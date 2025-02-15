@@ -108,6 +108,10 @@ aside {
   border-left: 1px solid #eee;
 }
 
+aside h3 {
+  color: #666;
+}
+
 .counter .total div:nth-child(1) {
   font-size: 16px;
 }
@@ -188,4 +192,16 @@ aside {
   font-weight: normal;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.recent-notice {
+  margin-bottom: 30px;
+  font-size: 14px;
+  color: gray;
+  line-height: 1.6;
+}
+
+.recent-notice h3 {
+  font-size: 14px;
+  margin-bottom: 5px;
 }
