@@ -147,3 +147,45 @@ aside {
   font-size: 14px;
   margin-bottom: 5px;
 }
+
+.recent-posts {
+  margin-bottom: 30px;
+  font-size: 14px;
+  color: gray;
+  line-height: 1.6;
+}
+
+.recent-posts h3 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.recent-posts .item {
+  display: flex;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.recent-posts .item img {
+  height: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.recent-posts .item .text {
+  margin-right: 25px;
+}
+
+.recent-posts .item h4 {
+  font-size: 13px;
+  font-weight: normal;
+  margin-top: 3px;
+  margin-bottom: 0;
+}
+
+.recent-posts .item p {
+  font-size: 12px;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 0;
+}
