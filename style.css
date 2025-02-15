@@ -205,3 +205,43 @@ aside h3 {
   font-size: 14px;
   margin-bottom: 5px;
 }
+
+.tt_category {
+  margin-bottom: 30px;
+  font-size: 14px;
+  color: gray;
+  line-height: 1.6;
+
+  padding-bottom: 30px;
+  border-bottom: 1px solid #eee;
+}
+
+.tt_category .link_tit {
+  color: #222;
+  font-weight: bold;
+}
+
+.tt_category a:hover {
+  color: #222;
+  text-decoration: underline;
+}
+
+.tt_category .category_list {
+  margin-top: 10px;
+  color: #666;
+}
+
+.tt_category .category_list > li {
+  margin-bottom: 10px;
+}
+
+.tt_category .sub_category_list {
+  border-left: 2px solid #ddd;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+.tt_category .sub_category_list li {
+  margin-bottom: 4px;
+  color: #aaa;
+}
