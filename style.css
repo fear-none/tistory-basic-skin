@@ -272,3 +272,36 @@ aside h3 {
   text-decoration: underline;
   color: #222;
 }
+
+#tt-body-page main,
+#tt-body-page aside {
+  margin-top: 400px;
+}
+
+.post .thumbnail {
+  position: absolute;
+  left: 0;
+  width: 100vw;
+  height: 340px;
+  margin-top: -400px;
+  object-fit: cover;
+  filter: brightness(0.5);
+}
+
+.post .category {
+  position: absolute;
+  margin-top: -250px;
+  color: white;
+}
+
+.post .title {
+  position: absolute;
+  margin-top: -200px;
+  color: white;
+}
+
+.post .info {
+  position: absolute;
+  margin-top: -150px;
+  color: #ccc;
+}
