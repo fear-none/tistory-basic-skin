@@ -305,3 +305,49 @@ aside h3 {
   margin-top: -150px;
   color: #ccc;
 }
+
+.list-item {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.list-item:hover h3 {
+  text-decoration: underline;
+  color: black;
+}
+
+.list-item img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.list-item .left {
+  flex: 1;
+  margin-right: 57px;
+}
+
+.list-item .left h3 {
+  margin: 0;
+  font-size: 20px;
+  color: #444;
+}
+
+.list-item .left p {
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 4px;
+
+  height: 60px;
+  overflow: hidden;
+  line-height: 20px;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.list-item .left span {
+  color: gray;
+  font-size: 12px;
+}
