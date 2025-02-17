@@ -68,9 +68,34 @@
                   <span class="date">[##_article_rep_simple_date_##]</span>
                 </p>
 
-                <div class="content">
-                  [##_article_rep_desc_##]
-                </div>
+                <div class="content">[##_article_rep_desc_##]</div>
+
+                <s_tag_label>
+                  <div class="post-tags">
+                    <h3>태그</h3>
+                    [##_tag_label_rep_##]
+                  </div>
+                </s_tag_label>
+
+                <s_article_related>
+                  <div class="related-post">
+                    <h3>관련 글</h3>
+                    <ul>
+                      <s_article_related_rep>
+                        <li class="[##_article_related_rep_type_##]">
+                          <a href="[##_article_related_rep_link_##]">
+                            <s_article_related_rep_thumbnail>
+                              <img src="[##_article_related_rep_thumbnail_link_##]" />
+                            </s_article_related_rep_thumbnail>
+                            <p>[##_article_related_rep_title_##]</p>
+                            <span>[##_article_related_rep_date_##]</span>
+                          </a>
+                        </li>
+                      </s_article_related_rep>
+                    </ul>
+                  </div>
+                </s_article_related>
+
               </div>
             </s_permalink_article_rep>
 
