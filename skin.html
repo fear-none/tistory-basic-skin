@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blog</title>
   <link rel="stylesheet" href="./style.css" />
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </head>
 
 <body id="[##_body_id_##]">
@@ -66,6 +68,7 @@
                 <p class="info">
                   <span class="author">by [##_article_rep_author_##]</span>
                   <span class="date">[##_article_rep_simple_date_##]</span>
+                  [##_s_ad_isolation_##]
                 </p>
 
                 <div class="content">[##_article_rep_desc_##]</div>
@@ -96,6 +99,39 @@
                   </div>
                 </s_article_related>
 
+                <div class="prev-next">
+                  <s_article_prev>
+                    <div class="prev [##_article_prev_type_##]">
+                      <h3>이전 글</h3>
+                      <a href="[##_article_prev_link_##]">
+                        <s_article_prev_thumbnail>
+                          <img src="[##_article_prev_thumbnail_link_##]" />
+                        </s_article_prev_thumbnail>
+
+                        <div class="text">
+                          <h4>[##_article_prev_title_##]</h4>
+                          <p>[##_article_prev_date_##]</p>
+                        </div>
+                      </a>
+                    </div>
+                  </s_article_prev>
+                  <s_article_next>
+                    <div class="next [##_article_next_type_##]">
+                      <h3>다음 글</h3>
+                      <a href="[##_article_next_link_##]">
+                        <div class="text">
+                          <h4>[##_article_next_title_##]</h4>
+                          <p>[##_article_next_date_##]</p>
+                        </div>
+
+                        <s_article_next_thumbnail>
+                          <img src="[##_article_next_thumbnail_link_##]" />
+                        </s_article_next_thumbnail>
+                      </a>
+                    </div>
+                  </s_article_next>
+                </div>
+
               </div>
             </s_permalink_article_rep>
 
@@ -111,6 +147,8 @@
                 </s_article_rep_thumbnail>
               </a>
             </s_index_article_rep>
+
+
 
           </s_article_rep>
         </main>

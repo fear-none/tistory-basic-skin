@@ -168,6 +168,7 @@ aside h3 {
   display: flex;
   height: 60px;
   margin-bottom: 15px;
+  justify-content: space-between;
 }
 
 .recent-posts .item img {
@@ -359,7 +360,7 @@ aside h3 {
 
 .post-tags h3 {
   font-size: 16px;
-  font-weight: 600px;
+  font-weight: 600;
   margin-bottom: 15px;
 }
 
@@ -421,4 +422,46 @@ aside h3 {
 
 .related-post .text_type {
   display: none;
+}
+
+.btn_etc {
+  filter: brightness(2);
+}
+
+.prev-next {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+}
+
+.prev-next h3 {
+  font-size: 16px;
+}
+
+.prev-next img {
+  width: 100px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.prev-next h4 {
+  font-size: 14px;
+  margin: 0;
+}
+
+.prev-next p {
+  font-size: 12px;
+  color: gray;
+  margin: 0;
+}
+
+.prev a,
+.next a {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.next h3 {
+  text-align: right;
 }
