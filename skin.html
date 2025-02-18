@@ -154,6 +154,31 @@
 
           </s_article_rep>
 
+          <s_article_protected>
+            <s_permalink_article_rep>
+              <div class="protected">
+                <h3>이 글은 보호되어 있는 글입니다.<h3>
+                    <p>내용을 보시려면 비밀번호를 입력하세요.</p>
+                    <div>
+                      <label for="[##_article_password_##]">비밀번호 ::</label>
+                      <input type="password" id="[##_article_password_##]" name="[##_article_password_##]"
+                        onkeydown="if (event.keyCode == 13) [##_article_dissolve_##]" />
+                      <button onclick="[##_article_dissolve_##]">확인</button>
+                    </div>
+              </div>
+            </s_permalink_article_rep>
+            <s_index_article_rep>
+              <a class="list-item" href="[##_article_rep_link_##]">
+                <div class="left">
+                  <h3>[##_article_rep_title_##]</h3>
+                  <p>이 글은 보호글입니다.</p>
+                  <span>[##_article_rep_simple_date_##]</span>
+                </div>
+                <img src="./images/lock.svg" />
+              </a>
+            </s_index_article_rep>
+          </s_article_protected>
+
           <s_notice_rep>
             <s_permalink_article_rep>
               <div class="post">
