@@ -100,6 +100,7 @@ main {
   flex: 1;
   padding-top: 60px;
   padding-right: 40px;
+  /* position: relative; */
 }
 
 aside {
@@ -475,7 +476,7 @@ aside h3 {
   left: 0;
   margin-top: -450px;
   height: 400px;
-  width: 100vw;
+  width: 100%;
 
   display: flex;
   align-items: center;
@@ -502,4 +503,44 @@ aside h3 {
   background-color: lightblue;
   border-radius: 5px;
   padding: 7px 12px;
+}
+
+.paging {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #666;
+  margin-top: 30px;
+}
+
+.paging .no-more-prev,
+.paging .no-more-next {
+  color: #ccc;
+}
+
+.paging .numbox {
+  display: flex;
+  column-gap: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.paging .numbox .num span {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paging .numbox .num .selected {
+  background-color: #666;
+  color: white;
+  font-weight: bold;
+}
+
+#tt-body-guestbook .paging {
+  display: none;
 }
