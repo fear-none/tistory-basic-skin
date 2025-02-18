@@ -465,3 +465,7 @@ aside h3 {
 .next h3 {
   text-align: right;
 }
+
+/* [data-tistory-react-app="Namecard"] {
+  display: none;
+} */
